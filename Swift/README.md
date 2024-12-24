@@ -31,3 +31,10 @@
 # Project files
 
 - Within Xcode, files belong into three main categories. Configuration, code and resource. Config defines the project structure, code for the logic and resource for everything else.
+
+# Mobile CPU Architecture
+
+- There are 3 main CPU architectures used in most smartphones. ARM, ARM64, and ARMx86
+- ARM (Advanced RISC Machines) are the most used because it is optimized for battery use. Some examples of ARM include ARMv7 and Armeabi.
+- ARM64 is a 64-bit extension of the original ARM. Some examples include AArch64. They are more powerful in the form of 64-bit processing and it is gradually becoming the standard in newer devices.
+- x86 is not as battery-friendly due to being a bit more sophisticated than ARM. An example of x86 is x86abi.
