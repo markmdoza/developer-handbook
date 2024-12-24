@@ -1,4 +1,4 @@
-- Assistant panel loads the code window beside the storyboard page. 
+- Assistant panel loads the code window beside the storyboard page.
 - Main.storyboard is also known as an interface builder.
 - ctrl + click and hold an image and drag it to code creates an interface builder outlet.
 - You cannot change the output name of the interface outlet you make. It will throw an error when you run the app. Instead, ctrl click on the variable you want to rename - refactor and rename.
@@ -7,3 +7,27 @@
 
 - Who.What = Value
   (Who needs to be changed and what what variable needs to be changed and what is the new value)
+
+# AppDelegate
+
+- The AppDelegate is effectively the foundation of an application and manages some interactions with the system.
+
+# SceneDelegate
+
+- This is responsible for displaying the screen UI and data.
+
+# ViewControllers
+
+- The only component users can interact with. Most applications will provide more than one ViewController.
+
+# UIViews
+
+- These dsiplay images, texts and more.
+
+# Storyboard
+
+- This serves as a blueprint for the interface that an application presents to the user.
+
+# Project files
+
+- Within Xcode, files belong into three main categories. Configuration, code and resource. Config defines the project structure, code for the logic and resource for everything else.
