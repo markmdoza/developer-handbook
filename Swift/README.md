@@ -38,3 +38,24 @@
 - ARM (Advanced RISC Machines) are the most used because it is optimized for battery use. Some examples of ARM include ARMv7 and Armeabi.
 - ARM64 is a 64-bit extension of the original ARM. Some examples include AArch64. They are more powerful in the form of 64-bit processing and it is gradually becoming the standard in newer devices.
 - x86 is not as battery-friendly due to being a bit more sophisticated than ARM. An example of x86 is x86abi.
+
+# Methods For Controlling Video Playback
+
+- AVPlayer(url: URL(fileURLWithPath: path))
+
+  - This specifies the path of the video to be played. This can be a remote video URL or a local video on the device.
+
+- play()
+
+  - Allows for the video to be played.
+
+- currentTime()
+
+  - Gets the current time of playback.
+
+- pause()
+
+  - Pauses video playback.
+
+- isMuted()
+  - Returns a boolean value that indicates if the video is muted.
