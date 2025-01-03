@@ -63,3 +63,24 @@
 
 - AVPlayerViewController
 - The AVPlayerViewController is the UI to control the video. Specifically, it is a view that contains media controls such as "Play/Pause", "Rewind", "Fast Forward" and a progress slider. It synchronizes the controls with the state of the MediaPlayer. By default, the AVPlayerViewController comes with a default set of controls. If you want to make changes to it, you must implement the AVPlayerViewController programmatically within your Swift code.
+
+# Swift Arrays
+
+```
+var a:Int = 5
+
+var b:[Int] = [5, 10, 15, 20, 25]
+
+print(b[0])
+
+This will print out 5. Very similar to JS.
+
+```
+
+# Updating an Array
+
+```
+b[0] = 100
+
+print(b[0])
+```
